@@ -44,3 +44,17 @@ x += 3
 print(x)
 
 # No increment and decrement operators such as x-- or x++
+
+# No constants in python
+# python built in function
+PI = -3.14
+print(PI)
+print(round(PI))
+print(round(PI, 1))
+print(abs(PI))
+
+
+
+# Complex Mathematical function can be done by importing math module
+import math
+print(math.floor(3.14))
