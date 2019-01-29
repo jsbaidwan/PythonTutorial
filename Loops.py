@@ -25,10 +25,26 @@ for x in range(0, 10, 2):
     print(x)
 
 # For else
+# Look for word starting with j
+
 name = ["john", "Mike"]
 for names in name:
     if names.startswith("j"):
         print("Found")
         break   # to break the loop
+# It will be only used if loop successfully complete without using break
 else:
     print("Not found")
+
+# While
+# loop stop as soon as guess matches the answer
+
+answer = 5
+guess = 0
+
+while answer != guess:
+    guess = int(input("Guess: "))
+# else will execute if loop will successfully complete without using break statement
+else:
+    pass
+
