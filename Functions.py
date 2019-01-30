@@ -34,6 +34,17 @@ def multiply(*num):   # * is used to define it as tuple
     return total
 
 
-print(multiply(9, 2, 3))
+print(multiply(9, 2, 3))  # tuple does not use square parentheses
+
+
+# passing dictionary as argument into function
+
+def save_user(**user):
+    print(user)
+    print(user["name"])
+    print(user["id"])
+
+
+save_user(id=1, name="John")
 
 
