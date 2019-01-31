@@ -48,3 +48,17 @@ def save_user(**user):
 save_user(id=1, name="John")
 
 
+def fizz_buzz(input):
+
+    if input % 5 == 0 and input % 3 == 0:
+        return "FizzBuzz"
+    elif input % 3 == 0:
+        return "fizz"
+    elif input % 5 == 0:
+        return "buzz"
+
+    return input
+
+
+print("\nOutput of Fizz Buzz: ", fizz_buzz(30))
+
