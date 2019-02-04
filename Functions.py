@@ -62,3 +62,13 @@ def fizz_buzz(input):
 
 print("\nOutput of Fizz Buzz: ", fizz_buzz(30))
 
+# Filter function
+
+items = [
+    ("product1", 10),
+    ("product2", 9),
+    ("product3", 12),
+]
+
+x = list(filter(lambda a: a[1] >= 10, items))
+print(x)
