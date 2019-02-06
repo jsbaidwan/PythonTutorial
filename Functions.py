@@ -64,6 +64,8 @@ print("\nOutput of Fizz Buzz: ", fizz_buzz(30))
 
 # Filter function
 
+# item[0] is product
+# item[1] is price
 items = [
     ("product1", 10),
     ("product2", 9),
@@ -72,3 +74,6 @@ items = [
 
 x = list(filter(lambda a: a[1] >= 10, items))
 print(x)
+
+price = list(map(lambda b: b[1] >= 10, items))
+print(price)
