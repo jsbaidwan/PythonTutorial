@@ -16,4 +16,7 @@ print('Deleted', fruits.items())
 
 print("Check for kiwi key value: ", 'kiwi' in fruits)
 
+# loop
+for i, j in fruits.items():
+    print(i, j)
 
