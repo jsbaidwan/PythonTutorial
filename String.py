@@ -75,4 +75,5 @@ print(course_name.replace("P", "-"))
 print("Tutorial" in course_name)
 print("Tutorial" not in course_name)
 
-
+# using count method in the string
+print("One fish, Two fish, blue fish, red fish".count('fish'))
