@@ -77,3 +77,13 @@ print("Tutorial" not in course_name)
 
 # using count method in the string
 print("One fish, Two fish, blue fish, red fish".count('fish'))
+
+# format method
+print("Jessie has {} car".format(4))
+
+animal = "dog"
+action = "bite"
+print("Does your {} {}?".format(animal, action))
+
+maria_string = "Maria loves {} and {}."
+print(maria_string.format("computers", "maths"))
