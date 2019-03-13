@@ -87,3 +87,13 @@ print("Does your {} {}?".format(animal, action))
 
 maria_string = "Maria loves {} and {}."
 print(maria_string.format("computers", "maths"))
+
+# split method
+new_str = "The kangaroo jumps over the car."
+print(new_str.split())
+
+print(new_str.split(' ', 3))
+
+print(new_str.split('.'))
+
+print(new_str.split(None, 3))
