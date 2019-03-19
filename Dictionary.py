@@ -1,4 +1,4 @@
-# Dictionary
+# A dictionary is a mutable data type that stores mappings of unique keys to values.
 print("Dictionary")
 
 fruits = {"Apple": "Red", "Banana": "Yellow"}
@@ -20,3 +20,12 @@ print("Check for kiwi key value: ", 'kiwi' in fruits)
 for i, j in fruits.items():
     print(i, j)
 
+
+def foo(x=[]):
+    x.append(1)
+    print(x)
+
+
+foo()
+foo()
+foo()
